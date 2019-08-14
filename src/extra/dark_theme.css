@@ -1,0 +1,81 @@
+/**   {
+    -darkest: #212121;
+    -primary: #424242;
+    -secondary: #616161;
+    -textcolor: #F5F5F5;
+    }
+*/
+
+*   {
+    -darkest: #101010;
+    -primary: #101010;
+    -secondary: #424242;
+    -textcolor: #F5F5F5;
+    }
+
+.root {
+    -fx-background-color: -primary;
+    -fx-background-image: url('/extra/darkbg.jpg');
+    -fx-background-size: cover;
+    -fx-background-repeat:   no-repeat;
+    -fx-background-position: center center;
+}
+
+.button{
+    -fx-text-fill: -textcolor;
+    -fx-background-color: -secondary;
+    -fx-background-radius: 20;
+    -fx-border-color: -textcolor;
+    -fx-border-radius: 20;
+}
+
+.button:hover{
+    -fx-background-color: #616161;
+}
+.button:pressed{
+    -fx-background-color: -secondary;
+}
+
+.text-id{
+    -fx-fill: -textcolor;
+}
+
+.menu-bar {
+    -fx-background-color: -darkest;
+}
+
+.menu-button {
+    -fx-background-color: -primary;
+}
+
+.menu-button .label {
+    -fx-background-color: -primary;
+    -fx-text-fill: -textcolor;
+}
+
+.context-menu {
+    -fx-background-color: -primary;
+}
+
+.menu-item:focused {
+     -fx-background-color: -secondary;
+}
+
+.menu-item:focused .label {
+    -fx-background-color: -secondary;
+}
+
+.text-area{
+    -fx-text-fill: -textcolor;
+}
+.text-area .content{
+    -fx-background-color: -secondary;
+}
+
+.check-box{
+    -fx-text-fill: -textcolor;
+}
+
+.date-picker .text-field {
+    -fx-control-inner-background: -secondary ;
+}
